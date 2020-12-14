@@ -1,7 +1,7 @@
 version: "2"
 services:
   seetgeek-web:
-    image: your_company/seetgeek
+    image: seetgeek16/seet-geek:latest
     depends_on:
       - seetgeek-db
     links:
